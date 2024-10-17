@@ -63,9 +63,8 @@ public class SonstigeApiDemo {
     }
 
     public static void dayPeriodRules() {
-        System.out.printf("Pattern 'B' (time now): %s/n", DateTimeFormatter.ofPattern("B").format(LocalTime.now()));
-        System.out.printf("Pattern 'B' (time now): %s/n", DateTimeFormatter.ofPattern("B").format(LocalTime.now().plusHours(12)));
+        System.out.printf("Pattern 'B' (time now): %s\n", DateTimeFormatter.ofPattern("B").format(LocalTime.now()));
+        System.out.printf("Pattern 'B' (time now): %s\n", DateTimeFormatter.ofPattern("B").format(LocalTime.now().plusHours(12)));
     }
-
 
 }

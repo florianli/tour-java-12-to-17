@@ -1,6 +1,7 @@
 package de.revdev.demo.feature.records;
 
 public class StandardConstructor {
+
     public record Person(String name, int age) {
         public Person(String name, int age) {
             if (age < 0) {
